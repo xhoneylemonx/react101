@@ -51,13 +51,6 @@ function App() {
         <h3>Theme: {theme}</h3>
         <button onClick={changeTheme}>เปลี่ยนธีม</button>
       </section>
-
-      {/* 📘 Grade Tracker System */}
-      <section style={{ marginTop: "40px" }}>
-        <h2>🌞 ระบบรวม</h2>
-        <CourseForm />
-        <GradeTracker />
-      </section>
     </div>
   );
 }

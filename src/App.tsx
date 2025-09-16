@@ -1,8 +1,6 @@
 // App.tsx
 import { useState } from "react";
 import "./index.css";
-import GradeTracker from "./components/GradeTracker";
-import CourseForm from "./components/CourseForm";
 
 function App() {
   // 🎯 Counter, Name, Theme
